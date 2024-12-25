@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Video & Media</title>
+</head>
+
+<body>
+    <video src="Video.mp4" width="255px" controls loop muted poster="Saadman.jpg"></video>
+    <audio src="Tharki.mp3" controls muted autoplay loop></audio>
+    <!-- preload are 3 types:
+    1. auto :The author thinks that the browser should load the entire video when the page loads
+    2. metadata: The author thinks that the browser should load only metadata when the page loads
+    3. none: The author thinks that the browser should NOT load the video when the page loads-->
+
+    <!--------SVG---------->
+
+    <img src="Saadman.jpg" alt="Sample SVG">
+
+    <svg xmlns="http://www.w3.org/2000.svg" height="100" width="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red" />
+    </svg>
+
+    <!-------------------------iFrame-------------------->
+    <iframe src="https://www.codewithharry.com/" width="1000" height="1000"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6ktny7tGepA?si=etAZWJvMlFADeRPH"
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+               encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</body>
+
+</html>
